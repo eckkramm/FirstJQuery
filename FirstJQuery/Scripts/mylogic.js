@@ -32,6 +32,6 @@ function DemoDataLoadSuccess(data) {
 }
 
 function DemoDataLoadError(error) {
-    alert("Arghh!");
+    alert("Geh bitte...!");
 
 }
