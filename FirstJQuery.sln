@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstJQuery", "FirstJQuery\FirstJQuery.csproj", "{ED35062F-A1B3-43E9-83F8-68EEE9AD4787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED35062F-A1B3-43E9-83F8-68EEE9AD4787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED35062F-A1B3-43E9-83F8-68EEE9AD4787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED35062F-A1B3-43E9-83F8-68EEE9AD4787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED35062F-A1B3-43E9-83F8-68EEE9AD4787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50B03EC5-6A28-48A7-B702-A8D4E3C1DAB6}
+	EndGlobalSection
+EndGlobal

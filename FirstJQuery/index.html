@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/mycontroller.js"></script>
+    <script src="Scripts/mylogic.js"></script>
+    <script src="Scripts/myDataQueries.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div id="page1">
+            <div class="row">
+                <button id="btnC1" class="btn btn-danger">ClickMe!</button>
+            </div>
+            <div class="row">
+                <p> I am visible on page 1</p>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div class="row">
+                <button id="btnC2" class="btn btn-danger">ClickMe!</button>
+
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="lastname">Lastname</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="enter your lastname">
+                    <button id="btnSaveLastname" class="btn btn-info">Save</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ToDo</th>
+                            <th>done</th>
+                            <td>Action</td>
+                        </tr>
+                    </thead>
+                    <tbody id="listing">
+                        <!--<tr>
+                            <td>Einkaufen Gehen</td>
+                            <td>true</td>
+                            <td><button class="btnDelete btn btn-warning">delete</button></td>
+                        </tr>-->
+
+                    </tbody>
+                   
+                </table>
+
+            </div>
+        </div>
+        <div id="page3">
+            <div class="row">
+                <button id="btnC3" class="btn btn-danger">ClickMe!</button>
+
+            </div>
+            <div class="row">
+                <p> I am page 3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
